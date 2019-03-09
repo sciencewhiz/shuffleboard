@@ -56,7 +56,7 @@ public class Shuffleboard extends Application {
       });
     } catch (AlreadyLockedException alreadyLockedException) {
       JUnique.sendMessage(getClass().getCanonicalName(), "alreadyRunning");
-      throw alreadyLockedException;
+      //throw alreadyLockedException;
     }
 
     Loggers.setupLoggers();
