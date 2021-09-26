@@ -14,7 +14,7 @@ import edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraServerSourceT
 import edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraStreamAdapter;
 import edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget;
 import edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget.Rotation;
-import edu.wpi.first.wpiutil.CombinedRuntimeLoader;
+import edu.wpi.first.util.CombinedRuntimeLoader;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
